@@ -1,0 +1,73 @@
+name: wibsite
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  geolocator: ^10.1.0
+  
+  timezone: ^0.9.0
+  pedometer: ^4.0.2
+  googleapis_auth: ^1.3.2
+  cached_network_image: ^3.2.0
+  permission_handler: ^10.2.0
+  firebase_messaging: ^14.6.5
+
+  shared_preferences: ^2.0.6
+  youtube_player_flutter: ^8.0.0
+  provider: ^6.0.0
+  url_launcher: ^6.0.20
+
+  flutter_svg: ^1.1.0
+  flutter:
+    sdk: flutter
+  webview_flutter: ^3.0.0
+  dash_chat_2: ^0.0.18
+  chat_gpt_sdk: ^2.2.8
+  file_picker: ^5.0.0
+  image_picker: ^0.8.7+4
+  http: ^1.2.2
+  google_fonts: ^6.2.1
+  mongo_dart: ^0.10.3
+  responsive_builder: ^0.7.1
+  font_awesome_flutter: ^10.7.0
+  firebase_storage: ^11.2.0
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.19.2
+  cloud_firestore: ^4.17.5
+  flutter_local_notifications: ^18.0.1
+  workmanager: ^0.5.1
+  flutter_timezone: ^4.0.0
+  rxdart: ^0.28.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sign_in/
+    - assets/
+    - assets/sign_up/
+    - assets/the_mainpage/
+    - assets/meals/
+    - assets/chatapp-59ea9-340384fbb170.json
+    - assets/avatar1.png
+    - assets/avatar2.png
+    - assets/avatar3.png
+    - assets/avatar4.png
+    - assets/avatar5.png
+    - assets/avatar6.png
+    - assets/avatar7.png
+    - assets/avatar8.png
+    - assets/avatar9.png
+    - assets/avatar10.png
+    - assets/avatar11.png
+    - assets/avatar12.png
+    - assets/avatar13.png
+    - assets/avatar14.png
+    - assets/avatar15.png
